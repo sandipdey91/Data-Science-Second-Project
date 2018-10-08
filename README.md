@@ -9,11 +9,11 @@ Project Organization
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
     │   ├── interim        <- Intermediate data that has been transformed.   	"processed_dataset.csv"
-    │   └── raw            <- The original, immutable data dump. 		"Shakespeare_data.csv"
+    │   └── raw            <- The original, immutable data dump. 		        "Shakespeare_data.csv"
     │
     ├── notebooks          <- "To be, or not to be.ipynb"
     │
-    ├── reports            <- Google Facet Screenshot			"Google_facet_Proj2.png"
+    ├── reports            <- Google Facet Screenshot			                "Google_facet_Proj2.png"
 
 --------
 
@@ -23,7 +23,9 @@ This notebook deals with classification of Shakespeare Plays.
 
 Key Steps:
 
-Data Preprocessing : Loading data into data frame, filtering required columns, removing null values Data Transformation: Using Label Encoding (scikit learn) and One Hot Encoding to encode the object data type columns to integer type Training & Testing Data set Classification models (scikit learn): Decision Trees, Logistic Regression,K-nearest Neighbours
+Data Preprocessing : Loading data into data frame, filtering required columns, removing null values 
+Data Transformation: Using Label Encoding (scikit learn) and One Hot Encoding to encode the object data type columns to integer type 
+Training & Testing Data set Classification models (scikit learn): Decision Trees, Logistic Regression,K-nearest Neighbours
 
 Data Source:
 
